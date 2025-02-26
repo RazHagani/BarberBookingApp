@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#424242"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="311dp"
+        android:layout_height="323dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/loginpic2" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint=" Email:"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBDEFB"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint=" Password:"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBDEFB"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/login_buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:backgroundTint="#FF7043"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/stylist"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/register_buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#BBDEFB"
+        android:text="Don't have an account? Register"
+        android:textColor="#1E88E5" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/barbershop_info"
+        android:textSize="14sp"
+        android:textColor="#BBDEFB"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#424242"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back - "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+
+
+    <TextView
+        android:id="@+id/announcement_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="No announcement available"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/announcement_background"
+        android:visibility="gone"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/barbershop4"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/schedule_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Your Appointment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/select_date_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Select Date"
+        android:backgroundTint="#FF7043"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/selected_datetime_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No date selected"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#BBDEFB"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/time_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/default_times"/>
+
+    <Spinner
+        android:id="@+id/service_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/book_appointment_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Book Appointment"
+        android:backgroundTint="#FF7043"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/view_appointments_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="View Appointments"
+        android:backgroundTint="#BBDEFB"
+        android:textColor="#1E88E5"
+        android:layout_marginBottom="8dp"/>
+
+
+</LinearLayout>

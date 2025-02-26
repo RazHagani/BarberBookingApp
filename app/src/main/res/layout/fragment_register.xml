@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#424242"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:padding="8dp"/>
+
+    <Spinner
+        android:id="@+id/roleSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/roles_array"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/usernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Username"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBDEFB"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBDEFB"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/phoneField"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBDEFB"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBDEFB"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/confirmPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBDEFB"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/secretCodeField"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Barber Code"
+        android:visibility="gone"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBDEFB"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/moustache"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"/>
+
+    <Button
+        android:id="@+id/register_buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="#FF7043"
+        android:text="Register"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
