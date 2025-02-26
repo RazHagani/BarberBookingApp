@@ -68,7 +68,6 @@ public class InventoryAdapter extends RecyclerView.Adapter<InventoryAdapter.Inve
 
         //בעת לחיצה על REMOVE תתבצע מחיקה של הפריט מהפיירבייס ומהרשימה
         holder.deleteButton.setOnClickListener(v -> {
-            //itemRef.removeValue();
             itemRef.removeValue().addOnCompleteListener(task -> {
                 if (task.isSuccessful()) {
                 } else {

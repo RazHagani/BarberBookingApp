@@ -8,6 +8,8 @@
     android:padding="16dp"
     android:layout_margin="8dp">
 
+    <!--עיצוב של פריט ברשימת התורים אצל הלקוח-->
+
     <TextView
         android:id="@+id/appointment_date_time"
         android:layout_width="match_parent"
@@ -33,7 +35,5 @@
         android:layout_height="wrap_content"
         android:text="Cancel"
         android:backgroundTint="#FF7043"
-        android:textColor="#FFFFFF"
-        android:padding="8dp"
-        android:minWidth="100dp"/>
+        android:padding="8dp" />
 </LinearLayout>

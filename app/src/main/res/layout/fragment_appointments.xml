@@ -9,7 +9,7 @@
     android:padding="16dp"
     tools:context=".fragments.AppointmentsFragment">
 
-
+<!--עיצוב הפרגמנט של הפגישות של הלקוח-->
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +24,6 @@
     <ImageView
         android:layout_width="105dp"
         android:layout_height="123dp"
-        android:layout_marginStart="8dp"
         android:src="@drawable/barbershop2"
         android:layout_gravity="center"/>
 

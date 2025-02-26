@@ -8,6 +8,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!--הקובץ הראשי של הפרוייקט, מולבש עליו קונטיינר שבו מוצג הניווט כאשר
+    הפרגמנט הראשי הוא מסך ההתחברות כמו כמו שהגדרתי בNAV_GRAPH-->
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"

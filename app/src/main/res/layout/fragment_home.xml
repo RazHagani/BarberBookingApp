@@ -8,6 +8,8 @@
     android:padding="16dp"
     android:gravity="center_horizontal">
 
+    <!--עיצוב הפרגמנט הראשי שנפתח ללקוח לאחר התחברות-->
+
     <TextView
         android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
@@ -16,7 +18,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#BBDEFB"
         android:layout_marginBottom="16dp" />
 
 
@@ -38,7 +40,6 @@
     <ImageView
         android:layout_width="105dp"
         android:layout_height="123dp"
-        android:layout_marginStart="8dp"
         android:src="@drawable/barbershop4"
         android:layout_gravity="center"/>
 
@@ -50,7 +51,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#BBDEFB"
         android:layout_marginBottom="8dp"/>
 
     <Button
@@ -59,7 +60,6 @@
         android:layout_height="48dp"
         android:text="Select Date"
         android:backgroundTint="#FF7043"
-        android:textColor="#FFFFFF"
         android:layout_marginBottom="8dp"/>
 
     <TextView
@@ -94,7 +94,6 @@
         android:layout_height="48dp"
         android:text="Book Appointment"
         android:backgroundTint="#FF7043"
-        android:textColor="#FFFFFF"
         android:layout_marginBottom="8dp"/>
 
     <Button

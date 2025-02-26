@@ -7,6 +7,8 @@
     android:background="#424242"
     android:padding="16dp">
 
+    <!--עיצוב הפרגמנט של המלאי-->
+
 
     <Button
         android:id="@+id/add_item_button"
@@ -14,13 +16,11 @@
         android:layout_height="48dp"
         android:text="Add Item"
         android:backgroundTint="#42A5F5"
-        android:textColor="#FFFFFF"
         android:layout_marginBottom="12dp"/>
 
     <ImageView
         android:layout_width="105dp"
         android:layout_height="123dp"
-        android:layout_marginStart="8dp"
         android:src="@drawable/barbershop3"
         android:layout_gravity="center"/>
 

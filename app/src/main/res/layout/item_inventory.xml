@@ -9,6 +9,8 @@
     android:layout_margin="8dp"
     android:gravity="center_vertical">
 
+    <!--עיצוב אייטם ברשימת המלאי בפרגמנט של הספר-->
+
     <TextView
         android:id="@+id/item_name"
         android:layout_width="0dp"
@@ -32,47 +34,41 @@
         android:padding="8dp"
         android:layout_marginEnd="8dp"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/button_decrease"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minWidth="48dp"
-        android:minHeight="48dp"
         android:padding="8dp"
         android:text="−"
         android:textSize="18sp"
         android:textStyle="bold"
         android:gravity="center"
         android:backgroundTint="#FF7043"
-        android:textColor="#FFFFFF"
         android:layout_marginEnd="6dp"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/button_increase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minWidth="48dp"
-        android:minHeight="48dp"
         android:padding="8dp"
         android:text="＋"
         android:textSize="18sp"
         android:textStyle="bold"
         android:gravity="center"
         android:backgroundTint="#42A5F5"
-        android:textColor="#FFFFFF"
         android:layout_marginEnd="6dp"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/button_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minWidth="48dp"
-        android:minHeight="48dp"
         android:paddingHorizontal="12dp"
         android:paddingVertical="8dp"
         android:text="REMOVE"
         android:textSize="12sp"
         android:backgroundTint="#D32F2F"
-        android:textColor="#FFFFFF"
-        android:layout_marginStart="10dp"/>
+        android:layout_marginStart="15dp"/>
 </LinearLayout>

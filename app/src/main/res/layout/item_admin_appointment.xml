@@ -8,6 +8,8 @@
     android:padding="16dp"
     android:layout_margin="8dp">
 
+    <!--עיצוב פריט ברשימת התורים שמופיעה בפרגמנט של הספר-->
+
     <TextView
         android:id="@+id/appointment_date_time"
         android:layout_width="match_parent"
@@ -35,7 +37,7 @@
         android:text="Service Type"
         android:textSize="16sp"
         android:textColor="#BBDEFB"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="4dp"/>
 
     <TextView
         android:id="@+id/user_email"
@@ -61,6 +63,5 @@
         android:layout_height="wrap_content"
         android:text="Cancel Appointment"
         android:backgroundTint="#FF7043"
-        android:textColor="#FFFFFF"
         android:padding="8dp"/>
 </LinearLayout>

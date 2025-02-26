@@ -7,6 +7,9 @@
     android:background="#424242"
     android:padding="16dp">
 
+
+    <!--עיצוב פרגמנט ההרשמה למערכת-->
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,6 +25,7 @@
         android:id="@+id/roleSpinner"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:paddingStart="8dp"
         android:entries="@array/roles_array"
         android:background="@drawable/rounded_bg"
         android:layout_marginBottom="8dp"/>
@@ -30,6 +34,7 @@
         android:id="@+id/usernameRegister"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:paddingStart="8dp"
         android:hint="Username"
         android:textColor="#FFFFFF"
         android:textColorHint="#BBDEFB"
@@ -41,6 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="Email"
+        android:paddingStart="8dp"
         android:inputType="textEmailAddress"
         android:textColor="#FFFFFF"
         android:textColorHint="#BBDEFB"
@@ -53,6 +59,7 @@
         android:layout_height="48dp"
         android:hint="Phone Number"
         android:inputType="phone"
+        android:paddingStart="8dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#BBDEFB"
         android:background="@drawable/rounded_bg"
@@ -63,6 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="Password"
+        android:paddingStart="8dp"
         android:inputType="textPassword"
         android:textColor="#FFFFFF"
         android:textColorHint="#BBDEFB"
@@ -75,6 +83,7 @@
         android:layout_height="48dp"
         android:hint="Confirm Password"
         android:inputType="textPassword"
+        android:paddingStart="8dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#BBDEFB"
         android:background="@drawable/rounded_bg"
@@ -87,6 +96,7 @@
         android:hint="Enter Barber Code"
         android:visibility="gone"
         android:inputType="number"
+        android:paddingStart="8dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#BBDEFB"
         android:background="@drawable/rounded_bg"
@@ -95,20 +105,16 @@
     <ImageView
         android:layout_width="105dp"
         android:layout_height="123dp"
-        android:layout_marginStart="8dp"
         android:src="@drawable/moustache"
+        android:layout_marginBottom="16dp"
         android:layout_gravity="center"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0"/>
+
 
     <Button
         android:id="@+id/register_buttonRegister"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:backgroundTint="#FF7043"
-        android:text="Register"
-        android:textColor="#FFFFFF"/>
+        android:text="Register" />
 </LinearLayout>

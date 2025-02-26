@@ -3,12 +3,23 @@
     android:shape="rectangle">
 
 
-    <solid android:color="#FF7043" />
+    <!-- הגדרה של איך יראה הלוח מודעות בפרגמנט של הלקוח -->
 
 
-    <stroke android:width="2dp" android:color="#FFFFFF"/>
+    <solid
+        android:color="#FF7043" />
 
-    <corners android:radius="12dp"/>
 
-    <padding android:left="12dp" android:top="12dp" android:right="12dp" android:bottom="12dp"/>
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF"/>
+
+    <corners
+        android:radius="12dp"/>
+
+    <padding
+        android:left="12dp"
+        android:top="12dp"
+        android:right="12dp"
+        android:bottom="12dp"/>
 </shape>

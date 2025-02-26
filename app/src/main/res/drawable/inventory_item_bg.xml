@@ -2,6 +2,8 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
+    <!--עיצוב הפריטים ברשימה של המלאי-->
+
     <corners android:radius="12dp"/>
 
     <solid android:color="#424242"/>

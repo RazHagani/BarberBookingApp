@@ -2,6 +2,8 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
+    <!--הגדרה של איך יראה הוספת פריט למלאי בפרגנט של המלאי-->
+
     <corners android:radius="12dp"/>
 
     <solid android:color="#424242"/>
